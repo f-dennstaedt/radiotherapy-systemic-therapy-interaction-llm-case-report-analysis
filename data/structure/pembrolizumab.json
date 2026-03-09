@@ -109,150 +109,6 @@
     },
     {
         "id": "T7",
-        "topic_input": "Is the patient male?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "a49cd0c1-bfc8-4cc6-93ad-c61f59fd94c4",
-                "name": "TRUE"
-            },
-            {
-                "id": "d5f7157e-a61d-4678-a63b-37481a482812",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T8",
-        "topic_input": "Is the patient female?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "54dbbe7d-1738-493d-9723-7d5fcfd0cbf8",
-                "name": "TRUE"
-            },
-            {
-                "id": "2222a593-abde-4b2e-a8f5-8b1024f1a1a8",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T9",
-        "topic_input": "Is the primary cancer a lung cancer?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "2c423982-565c-40eb-93bb-7143b5290e15",
-                "name": "TRUE"
-            },
-            {
-                "id": "58c82c43-ad22-49c1-91aa-c7b648c38123",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T10",
-        "topic_input": "Is the primary cancer a kidney cancer?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "8ce7c629-5d00-4d67-907d-6e9750e12da9",
-                "name": "TRUE"
-            },
-            {
-                "id": "633d8a5c-a79a-45c9-8a12-0c862d4738ff",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T11",
-        "topic_input": "Is the primary cancer a lymphoma?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "501083ac-55bb-43eb-8791-5fc672973888",
-                "name": "TRUE"
-            },
-            {
-                "id": "d6ae9895-11a1-44be-bbc9-5f3eb46e0704",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T12",
-        "topic_input": "Is the primary cancer a skin cancer?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "e9a7f829-51fd-40fb-b38b-1b7ec89904dd",
-                "name": "TRUE"
-            },
-            {
-                "id": "62d712fb-fed0-4ad9-85a2-9f892235fb2c",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T13",
-        "topic_input": "Is the primary cancer a gynecological cancer?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "f8a2c157-96e2-4207-9311-ad632041928b",
-                "name": "TRUE"
-            },
-            {
-                "id": "274564d6-b6ec-472f-91c8-451dfef47d50",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T14",
-        "topic_input": "Is the primary cancer pancreas cancer?",
-        "topic_data": [],
-        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
-        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "thinking_config": {},
-        "categories": [
-            {
-                "id": "59b64683-c632-4734-9744-4e32693555a9",
-                "name": "TRUE"
-            },
-            {
-                "id": "61230503-6bb8-4dd2-b4fb-4fb1666903e2",
-                "name": "FALSE"
-            }
-        ]
-    },
-    {
-        "id": "T15",
         "topic_input": "Did the patient die?",
         "topic_data": [],
         "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
@@ -270,7 +126,7 @@
         ]
     },
     {
-        "id": "T16",
+        "id": "T8",
         "topic_input": "Was there a positive outcome resulting from the combination of radiotherapy and Pembrolizumab?",
         "topic_data": [],
         "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
@@ -288,7 +144,64 @@
         ]
     },
     {
-        "id": "T17",
+        "id": "T9",
+        "topic_input": "Is it mentioned that the treatment of Pembrolizumab and radiation therapy led to a successful treatment response for the patient?",
+        "topic_data": [],
+        "condition": "T8==509208d6-d651-455e-b003-da34fe587fdd",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+          {
+            "id": "360208ab-f33d-40da-a7ae-d267fe7ddbbd",
+            "name": "TRUE",
+            "condition": ""
+          },
+          {
+            "id": "30abf978-2acb-458e-9772-3b6e25f05090",
+            "name": "FALSE",
+            "condition": ""
+          }
+        ]
+    },
+    {
+        "id": "T10",
+        "topic_input": "Is it mentioned that the treatment of Pembrolizumab and radiation therapy led to a relief of symptoms for the patient?",
+        "topic_data": [],
+        "condition": "T8==509208d6-d651-455e-b003-da34fe587fdd",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+          {
+            "id": "a8c8b53d-7c0e-44d6-b5df-ab371713f65e",
+            "name": "TRUE",
+            "condition": ""
+          },
+          {
+            "id": "512cdee1-058b-425c-ae82-ce845bcdd95a",
+            "name": "FALSE",
+            "condition": ""
+          }
+        ]
+    },
+    {
+        "id": "T11",
+        "topic_input": "Was the patient cured (disease-free survival of at least 2 years without treatment) as a result of the interaction between Pembrolizumab and radiation therapy?",
+        "topic_data": [],
+        "condition": "T8==509208d6-d651-455e-b003-da34fe587fdd",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+          {
+            "id": "558a0260-dd80-4daf-a352-078d8cc63f8d",
+            "name": "TRUE",
+            "condition": ""
+          },
+          {
+            "id": "d3b69c19-dc60-4d5e-bc62-700e881fb973",
+            "name": "FALSE",
+            "condition": ""
+          }
+        ]
+    },
+    {
+        "id": "T12",
         "topic_input": "Was there a negative outcome resulting from the combination of radiotherapy and Pembrolizumab?",
         "topic_data": [],
         "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
@@ -301,6 +214,207 @@
             },
             {
                 "id": "9cfbba86-9e56-45d0-ab49-06f4c5bbfa00",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T13",
+        "topic_input": "Did the patient have a failed treatment response of the therapy involving both Pembrolizumab and radiation therapy?",
+        "topic_data": [],
+        "condition": "T12==77abf4e7-acbf-4366-b2aa-57722aea4fb7",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+          {
+            "id": "fa080baa-addc-488b-9604-3e974ae59eca",
+            "name": "TRUE",
+            "condition": ""
+          },
+          {
+            "id": "f231014b-688f-4791-b8af-30778bcb8fa4",
+            "name": "FALSE",
+            "condition": ""
+          }
+        ]
+      },
+    {
+      "id": "T14",
+      "topic_input": "Did the patient experience relevant acute toxicity as resulting from the interaction between Pembrolizumab and radiation therapy?",
+      "topic_data": [],
+      "condition": "T12==77abf4e7-acbf-4366-b2aa-57722aea4fb7",
+      "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+      "categories": [
+        {
+          "id": "83102ac8-6c48-419b-8d20-183941f86b4c",
+          "name": "TRUE",
+          "condition": ""
+        },
+        {
+          "id": "12a690f4-d68d-4dd0-9296-fc54c96dcc05",
+          "name": "FALSE",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "id": "T15",
+      "topic_input": "Did the patient have a secondary chronic disease resulting from the interaction between Pembrolizumab and radiation therapy?",
+      "topic_data": [],
+      "condition": "T12==77abf4e7-acbf-4366-b2aa-57722aea4fb7",
+      "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+      "categories": [
+        {
+          "id": "f9760f1c-6208-468b-8a93-10e3280260a4",
+          "name": "TRUE",
+          "condition": ""
+        },
+        {
+          "id": "d4e67b37-ea20-48d0-9c16-b7e4319089cc",
+          "name": "FALSE",
+          "condition": ""
+        }
+      ]
+    },
+    {
+        "id": "T16",
+        "topic_input": "Is the patient male?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "a49cd0c1-bfc8-4cc6-93ad-c61f59fd94c4",
+                "name": "TRUE"
+            },
+            {
+                "id": "d5f7157e-a61d-4678-a63b-37481a482812",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T17",
+        "topic_input": "Is the patient female?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "54dbbe7d-1738-493d-9723-7d5fcfd0cbf8",
+                "name": "TRUE"
+            },
+            {
+                "id": "2222a593-abde-4b2e-a8f5-8b1024f1a1a8",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T18",
+        "topic_input": "Is the primary cancer a lung cancer?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "2c423982-565c-40eb-93bb-7143b5290e15",
+                "name": "TRUE"
+            },
+            {
+                "id": "58c82c43-ad22-49c1-91aa-c7b648c38123",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T19",
+        "topic_input": "Is the primary cancer a kidney cancer?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "8ce7c629-5d00-4d67-907d-6e9750e12da9",
+                "name": "TRUE"
+            },
+            {
+                "id": "633d8a5c-a79a-45c9-8a12-0c862d4738ff",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T20",
+        "topic_input": "Is the primary cancer a lymphoma?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "501083ac-55bb-43eb-8791-5fc672973888",
+                "name": "TRUE"
+            },
+            {
+                "id": "d6ae9895-11a1-44be-bbc9-5f3eb46e0704",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T21",
+        "topic_input": "Is the primary cancer a skin cancer?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "e9a7f829-51fd-40fb-b38b-1b7ec89904dd",
+                "name": "TRUE"
+            },
+            {
+                "id": "62d712fb-fed0-4ad9-85a2-9f892235fb2c",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T22",
+        "topic_input": "Is the primary cancer a gynecological cancer?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "f8a2c157-96e2-4207-9311-ad632041928b",
+                "name": "TRUE"
+            },
+            {
+                "id": "274564d6-b6ec-472f-91c8-451dfef47d50",
+                "name": "FALSE"
+            }
+        ]
+    },
+    {
+        "id": "T23",
+        "topic_input": "Is the primary cancer pancreas cancer?",
+        "topic_data": [],
+        "condition": "T2==4a4e562b-00e2-43f7-a5d5-634702935f24 && T3==b5a01131-2d14-4cd6-9e60-557ec0811063",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "thinking_config": {},
+        "categories": [
+            {
+                "id": "59b64683-c632-4734-9744-4e32693555a9",
+                "name": "TRUE"
+            },
+            {
+                "id": "61230503-6bb8-4dd2-b4fb-4fb1666903e2",
                 "name": "FALSE"
             }
         ]
